@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
+import Link from "next/link";
 
 export default function page() {
   const defaultText = "Hi. I am Vitor Santos, a UI/UX Designer and a ";
@@ -35,6 +36,7 @@ export default function page() {
             src="/headerimage.png"
             alt=""
             fill
+            sizes="(100vw, 100vh)"
           />
         </div>
         {/* TEXT CONTAINER */}
@@ -48,18 +50,16 @@ export default function page() {
           />
 
           <p className="md:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
-            aperiam soluta ea, dolore, alias pariatur ducimus temporibus quae
-            maxime doloremque autem iusto veritatis cum reprehenderit nostrum
-            aspernatur! Reprehenderit, nihil vitae?
+            From Pixels to Performance: Unveiling Web Wonders One Code Line at a
+            Time.
           </p>
           {/* BUTTONS */}
           <div className="flex gap-4 w-full ">
             <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
-              View my work
+              <Link href="/portifolio">View my work</Link>
             </button>
             <button className="p-4 rounded-lg ring-1 ring-black">
-              Contact me
+              <Link href="/contact">Contact me</Link>
             </button>
           </div>
         </div>
