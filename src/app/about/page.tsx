@@ -69,7 +69,7 @@ export default function page() {
               and function.{"\n\n"}I believe in continuous learning and staying
               updated with the latest industry trends to deliver innovative
               solutions.
-              {"\n\n"}I have a Associated Degree in Data Science and Software Engineering.
+              {"\n\n"}I am studying Data Science and i have Associated Degree in Software Engineering.
             </p>
             <span className="italic">
               Turning complexity into simplicity with every line of code.
